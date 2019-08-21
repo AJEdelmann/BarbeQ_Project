@@ -1,14 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BarbQ calculator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="Barbeq.css">
+    <link rel="stylesheet" href="Barbeq.css">
     <script src="Barbeq.js"></script>
 </head>
+
 <body>
-    
+    <section id="calculator">
+        <div>
+            <ul>
+                <li>
+                    <button type="button" class="round-button person-button">0</button>
+                    <p>Person</p>
+                </li>
+                <li>
+                    <button type="button" class="round-button vegetarian-button">0</button>
+                    <p>Vegetarian</p>
+                </li>
+                <li>
+                    <button type="button" class="round-button vegan-button">0</button>
+                    <p>Vegan</p>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <button type="button" class="grill-button">GRILLING</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <table>
+            <tbody>
+                <tr id="trMeat" class="hidden">
+                    <td class="photo"><img src="" alt=""></td>
+                    <td>
+                        <h4>Meat: </h4>
+                    </td>
+                    <td>
+                        <p></p>
+                    </td>
+                </tr>
+                <tr id="trSausage" class="hidden">
+                    <td class="photo"><img src="" alt=""></td>
+                    <td>
+                        <h4>Sausage: </h4>
+                    </td>
+                    <td>
+                        <p></p>
+                    </td>
+                </tr>
+                <tr id="trCheese" class="hidden">
+                    <td class="photo"><img src="" alt=""></td>
+                    <td>
+                        <h4>Cheese: </h4>
+                    </td>
+                    <td>
+                        <p></p>
+                    </td>
+                </tr>
+                <tr id="trTofuSteak" class="hidden">
+                    <td class="photo"><img src="" alt=""></td>
+                    <td>
+                        <h4>Tofu Steak: </h4>
+                    </td>
+                    <td>
+                        <p></p>
+                    </td>
+                </tr>
+                <tr id="trTofuSausage" class="hidden">
+                    <td class="photo"><img src="" alt=""></td>
+                    <td>
+                        <h4>Tofu Sausage: </h4>
+                    </td>
+                    <td>
+                        <p></p>
+                    </td>
+                </tr>
+                <tr id="trPotato">
+                    <td class="photo"><img src="" alt=""></td>
+                    <td>
+                        <h4>Potato: </h4>
+                    </td>
+                    <td>
+                        <p></p>
+                    </td>
+                </tr>
+                <tr id="trCorn">
+                    <td class="photo"><img src="" alt=""></td>
+                    <td>
+                        <h4>Corn: </h4>
+                    </td>
+                    <td>
+                        <p></p>
+                    </td>
+                </tr>
+                <tr id="trSalad">
+                    <td class="photo"><img src="" alt=""></td>
+                    <td>
+                        <h4>Salad: </h4>
+                    </td>
+                    <td>
+                        <p></p>
+                    </td>
+                </tr>
+                <tr id="trBread">
+                    <td class="photo"><img src="" alt=""></td>
+                    <td>
+                        <h4>Bread: </h4>
+                    </td>
+                    <td>
+                        <p></p>
+                    </td>
+                </tr>
+                <tr id="trSauce">
+                    <td class="photo"><img src="" alt=""></td>
+                    <td>
+                        <h4>Sauce: </h4>
+                    </td>
+                    <td>
+                        <p></p>
+                    </td>
+                </tr>
+                <tr id="trNapkins">
+                    <td class="photo"><img src="" alt=""></td>
+                    <td>
+                        <h4>Napkins: </h4>
+                    </td>
+                    <td>
+                        <p></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 </body>
 </html>
